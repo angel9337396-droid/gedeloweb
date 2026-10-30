@@ -1,7 +1,0 @@
-# Configuracion local del editor y servidor de desarrollo
-.vscode/
-difjs/
-
-# Archivos de Windows
-desktop.ini
-Thumbs.db
