@@ -6,12 +6,16 @@ Sitio web estático de Gedelo para presentar servicios de diseño web y sistemas
 
 ```text
 Gedelo/
-├── assets/       # Logotipo y recursos gráficos
-├── css/          # Estilos y animaciones
-├── js/           # Interacciones de la página
-├── index.html    # Página principal
-├── .gitignore    # Archivos locales que no se publican
-└── README.md
+├── index.html
+├── README.md
+├── .gitignore
+├── assets/
+│   ├── gedelo-logo.png
+│   └── gedelo-mark.png
+├── css/
+│   └── styles.css
+└── js/
+    └── main.js
 ```
 
 La página carga sus archivos con rutas relativas (`css/styles.css`, `js/main.js` y `assets/`), así que conserva esta estructura al subirla.
